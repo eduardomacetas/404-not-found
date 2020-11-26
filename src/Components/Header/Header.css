@@ -1,0 +1,11 @@
+.header {
+  position: fixed;
+  color: #333333;
+  width: 100%;
+  background-color: aquamarine;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.08em;
+  padding: 40px 77px;
+  text-transform: uppercase;
+}

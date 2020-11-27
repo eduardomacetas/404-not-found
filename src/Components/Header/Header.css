@@ -1,7 +1,6 @@
 .header {
-  position: fixed;
+  grid-area: header;
   color: #333333;
-  width: 100%;
   background-color: aquamarine;
   font-style: normal;
   font-weight: bold;

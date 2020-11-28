@@ -3,3 +3,12 @@
 body {
   font-family: 'Space Mono', monospace;
 }
+
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header" 
+    "page"
+    "footer";
+}

@@ -1,5 +1,6 @@
 .footer {
-  position: fixed;
+  grid-area: footer;
+  position: relative;
   color: #333333;
   left: 0;
   bottom: 0;

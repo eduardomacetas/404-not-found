@@ -1,0 +1,48 @@
+.page {
+  grid-area: page;
+  position: relative;
+  padding: 150px 0px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  color: red;
+}
+
+.column .title {
+  color: #333333;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 64px;
+  letter-spacing: -0. 035em;
+  line-height: 94,78px;
+  width: 75%;
+}
+
+.column .message {
+  color: #4f4f4f;
+  font-size: 24px;
+  letter-spacing: -0.035em;
+  line-height: 35,54px;
+  padding: 36px 0;
+  width: 45%;
+}
+
+@media screen and (max-width: 750px) {
+  .page {
+    padding: 20px 24px 40px;
+
+  }
+  .column {
+    width: 100%;
+  }
+
+  .column .title {
+    width: 100%;
+  }
+
+  .column .message {
+    width: 100%;
+  }
+}

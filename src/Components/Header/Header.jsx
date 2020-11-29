@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
   return(
     <div class="header"> 
-      404 NOT FOUND
+      404 not found
     </div>
     )
   }
